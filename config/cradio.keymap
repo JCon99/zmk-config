@@ -47,13 +47,6 @@
         compatible = "zmk,combos";
 
         // both right thumb keys
-
-        combo_accent {
-            timeout-ms = <300>;
-            key-positions = <32 33>;
-            bindings = <&mo 0>;
-        };
-
         // internal-left & external-right thumb keys
         // both left thumb keys
 
@@ -81,14 +74,14 @@
             layers = <0>;
         };
 
-        new_combo {
-            bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <31 32>;
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <32>;
         };
 
         to_gaming_layer {
             bindings = <&to 5>;
-            key-positions = <31 32 33>;
+            key-positions = <31 32 33 30>;
             layers = <0>;
         };
 
@@ -96,6 +89,11 @@
             bindings = <&to 0>;
             key-positions = <30 31 33 32>;
             layers = <5>;
+        };
+
+        backspace_word {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <31 33>;
         };
     };
 
