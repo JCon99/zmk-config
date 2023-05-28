@@ -76,7 +76,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <32>;
+            key-positions = <32 31>;
         };
 
         to_gaming_layer {
