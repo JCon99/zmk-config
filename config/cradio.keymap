@@ -108,7 +108,7 @@
 &mt EXCLAMATION GRAVE    &kp AT_SIGN      &kp HASH  &kp DOLLAR    &kp PERCENT       &kp CLEAR        &kp N7        &kp N8        &kp N9  &mt MINUS KP_DIVIDE
             &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp MINUS      &kp EQUAL      &kp KP_DOT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &mt PLUS ASTERISK
                &trans         &trans        &trans      &trans  &kp BACKSLASH    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp KP_EQUAL
-                                                         &mo 3          &mo 0          &trans        &trans
+                                                        &trans         &trans          &trans        &trans
             >;
         };
 
@@ -119,7 +119,7 @@
   &kp ESC     &trans            &trans  &kp CAPSLOCK     &trans       &kp PG_UP  &kp INSERT        &kp HOME    &kp END  &kp CAPS
  &sk LALT   &sk LGUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT       &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT   &kp DEL
 &kp LC(Z)  &kp LC(X)         &kp LC(C)       &kp TAB  &kp LC(V)    &kp LC(BSPC)      &trans  &kp DOWN_ARROW     &trans    &trans
-                                              &trans  &kp LCTRL       &kp ENTER       &mo 3
+                                              &trans     &trans       &kp ENTER      &trans
             >;
         };
 
@@ -149,10 +149,10 @@
 
         gaming {
             bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp  &kp  &kp  &kp  &kp
-&kp LSHIFT         &kp A         &kp W         &kp S         &kp R    &kp  &kp  &kp  &kp  &kp
-     &kp C           &kp         &kp D         &kp F           &kp    &kp  &kp  &kp  &kp  &kp
-                                               &kp L     &kp SPACE    &kp  &kp
+&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
+&kp LSHIFT         &kp A         &kp W         &kp S         &kp R    &trans  &trans  &trans  &trans  &trans
+     &kp C        &trans         &kp D         &kp F        &trans    &trans  &trans  &trans  &trans  &trans
+                                               &kp L     &kp SPACE    &trans  &trans
             >;
         };
     };
