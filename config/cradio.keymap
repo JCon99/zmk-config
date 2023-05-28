@@ -55,13 +55,6 @@
         };
 
         // internal-left & external-right thumb keys
-
-        combo_sym2 {
-            timeout-ms = <200>;
-            key-positions = <31 33>;
-            bindings = <&mo 0>;
-        };
-
         // both left thumb keys
 
         combo_settings {
@@ -88,20 +81,9 @@
             layers = <0>;
         };
 
-        gaming_layer {
-            bindings = <&to 5>;
-            key-positions = <30 31 32 33>;
-            layers = <0 1 2 3 4>;
-        };
-
         new_combo {
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <31 32>;
-        };
-
-        default_layer {
-            bindings = <&to 0>;
-            key-positions = <30 31 32 33>;
         };
     };
 
@@ -121,7 +103,7 @@
 
         // Numbers and high frequency symbols
 
-        sym_layer {
+        num {
             bindings = <
 &mt EXCLAMATION GRAVE    &kp AT_SIGN      &kp HASH  &kp DOLLAR    &kp PERCENT       &kp CLEAR        &kp N7        &kp N8        &kp N9  &mt MINUS KP_DIVIDE
             &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp MINUS      &kp EQUAL      &kp KP_DOT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &mt PLUS ASTERISK
@@ -132,7 +114,7 @@
 
         // Main modifiers and arrow keys
 
-        ext_layer {
+        mod {
             bindings = <
   &kp ESC     &trans            &trans  &kp CAPSLOCK     &trans       &kp PG_UP  &kp INSERT        &kp HOME    &kp END  &kp CAPS
  &sk LALT   &sk LGUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT       &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT   &kp DEL
