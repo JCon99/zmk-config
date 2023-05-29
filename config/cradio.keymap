@@ -115,10 +115,10 @@
 
         num {
             bindings = <
-&mt EXCLAMATION GRAVE    &kp AT_SIGN      &kp HASH  &kp DOLLAR    &kp PERCENT       &kp CLEAR        &kp N7        &kp N8        &kp N9  &mt MINUS KP_DIVIDE
-            &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp MINUS      &kp EQUAL      &kp KP_DOT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &mt PLUS ASTERISK
-               &trans         &trans        &trans   &kp UNDER  &kp BACKSLASH    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp KP_EQUAL
-                                                        &trans         &trans       &kp ENTER        &trans
+&mt EXCLAMATION GRAVE    &kp AT_SIGN      &kp HASH  &kp DOLLAR        &kp PERCENT       &kp CLEAR        &kp N7        &kp N8        &kp N9  &mt MINUS KP_DIVIDE
+            &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp MINUS          &kp EQUAL      &kp KP_DOT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &mt PLUS ASTERISK
+               &trans         &trans        &trans   &kp UNDER      &kp BACKSLASH    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp KP_EQUAL
+                                                        &trans  &kp LC(BACKSPACE)          &trans        &trans
             >;
         };
 
@@ -126,10 +126,10 @@
 
         mod {
             bindings = <
-  &kp ESC        &trans            &trans  &kp CAPSLOCK             &trans       &kp PG_UP  &kp INSERT        &kp HOME    &kp END  &kp CAPS
- &sk LALT  &sk LEFT_GUI  &sk LEFT_CONTROL    &sk LSHIFT           &kp RALT       &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT   &kp DEL
-&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp TAB          &kp LC(V)    &kp LC(BSPC)      &trans  &kp DOWN_ARROW     &trans    &trans
-                                                 &trans  &kp LC(BACKSPACE)          &trans      &trans
+  &kp ESC        &trans            &trans  &kp CAPSLOCK     &trans       &kp PG_UP  &kp INSERT        &kp HOME    &kp END  &kp CAPS
+ &sk LALT  &sk LEFT_GUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT       &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT   &kp DEL
+&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp TAB  &kp LC(V)    &kp LC(BSPC)      &trans  &kp DOWN_ARROW     &trans    &trans
+                                                 &trans     &trans       &kp ENTER      &trans
             >;
         };
 
