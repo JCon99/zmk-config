@@ -95,6 +95,21 @@
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <31 33>;
         };
+
+        r_parathesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <15 25>;
+        };
+
+        r_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <16 26>;
+        };
+
+        r_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <17 27>;
+        };
     };
 
     keymap {
