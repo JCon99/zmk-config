@@ -141,9 +141,9 @@
 
         mod {
             bindings = <
-  &kp ESC        &trans            &trans  &kp CAPSLOCK     &trans            &kp PG_UP  &kp INSERT        &kp HOME    &kp END  &kp CAPS
- &sk LALT  &sk LEFT_GUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT            &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT   &kp DEL
-&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp TAB  &kp LC(V)         &kp LC(BSPC)      &trans  &kp DOWN_ARROW     &trans    &trans
+  &kp ESC        &trans     &kp LS(LG(S))  &kp CAPSLOCK  &kp LC(P)            &kp PG_UP  &kp INSERT        &kp HOME    &kp END   &kp CAPS
+ &sk LALT  &sk LEFT_GUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT            &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT    &kp DEL
+&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp TAB  &kp LC(V)         &kp LC(BSPC)      &trans  &kp DOWN_ARROW     &trans  &kp LC(Y)
                                                  &trans     &trans    &kp LC(BACKSPACE)      &trans
             >;
         };
