@@ -52,7 +52,7 @@
 
         combo_settings {
             timeout-ms = <300>;
-            key-positions = <30 31>;
+            key-positions = <32 33>;
             bindings = <&mo 4>;
         };
 
@@ -100,6 +100,11 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <17 27>;
         };
+
+        new_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <30 31>;
+        };
     };
 
     keymap {
@@ -131,10 +136,10 @@
 
         mod {
             bindings = <
-  &kp ESC        &trans     &kp LS(LG(S))  &kp CAPSLOCK  &kp LC(P)            &kp PG_UP  &kp INSERT        &kp HOME    &kp END   &kp CAPS
- &sk LALT  &sk LEFT_GUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT            &kp PG_DN    &kp LEFT    &kp UP_ARROW  &kp RIGHT    &kp DEL
-&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp TAB  &kp LC(V)         &kp LC(BSPC)      &trans  &kp DOWN_ARROW     &trans  &kp LC(Y)
-                                                 &trans     &trans    &kp LC(BACKSPACE)      &trans
+  &kp ESC  &kp LEFT_GUI   &kp PRINTSCREEN  &kp CAPSLOCK  &kp LC(P)            &kp PG_UP  &kp C_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT   &kp CAPS
+ &sk LALT  &sk LEFT_GUI  &sk LEFT_CONTROL    &sk LSHIFT   &kp RALT            &kp PG_DN        &kp LEFT      &kp UP_ARROW   &kp RIGHT    &kp DEL
+&kp LC(Z)     &kp LC(X)         &kp LC(C)       &kp TAB  &kp LC(V)               &trans          &trans    &kp DOWN_ARROW      &trans  &kp LC(Y)
+                                                 &trans     &trans    &kp LC(BACKSPACE)          &trans
             >;
         };
 
