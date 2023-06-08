@@ -74,11 +74,6 @@
             layers = <0>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <32 31>;
-        };
-
         to_gaming_layer {
             bindings = <&to 5>;
             key-positions = <31 32 33 30>;
@@ -89,11 +84,6 @@
             bindings = <&to 0>;
             key-positions = <30 31 33 32>;
             layers = <5>;
-        };
-
-        backspace_word {
-            bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <31 33>;
         };
 
         r_parathesis {
