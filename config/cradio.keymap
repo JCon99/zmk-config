@@ -101,7 +101,7 @@
             key-positions = <17 27>;
         };
 
-        new_combo {
+        l_backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <30 31>;
         };
@@ -114,6 +114,11 @@
         delete {
             bindings = <&kp DELETE>;
             key-positions = <30 33>;
+        };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <0 10>;
         };
     };
 
