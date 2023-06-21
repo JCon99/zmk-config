@@ -52,7 +52,7 @@
 
         combo_settings {
             timeout-ms = <300>;
-            key-positions = <32 33>;
+            key-positions = <19 33>;
             bindings = <&mo 4>;
         };
 
@@ -72,18 +72,6 @@
             bindings = <&kp LEFT_BRACE>;
             key-positions = <12 22>;
             layers = <0>;
-        };
-
-        to_gaming_layer {
-            bindings = <&to 5>;
-            key-positions = <31 32 33 30>;
-            layers = <0>;
-        };
-
-        to_default_layer {
-            bindings = <&to 0>;
-            key-positions = <30 31 33 32>;
-            layers = <5>;
         };
 
         r_parathesis {
@@ -119,6 +107,56 @@
         one {
             bindings = <&kp NUMBER_1>;
             key-positions = <0 10>;
+        };
+
+        new_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <32 33>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <1 11>;
+        };
+
+        three {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <2 12>;
+        };
+
+        four {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <3 13>;
+        };
+
+        five {
+            bindings = <&kp NUMBER_5>;
+            key-positions = <4 14>;
+        };
+
+        six {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <5 15>;
+        };
+
+        seven {
+            bindings = <&kp NUMBER_7>;
+            key-positions = <6 16>;
+        };
+
+        eight {
+            bindings = <&kp NUMBER_8>;
+            key-positions = <7 17>;
+        };
+
+        nine {
+            bindings = <&kp NUMBER_9>;
+            key-positions = <8 18>;
+        };
+
+        zero {
+            bindings = <&kp NUMBER_0>;
+            key-positions = <9 19>;
         };
     };
 
@@ -179,15 +217,6 @@
       &none  &none  &none       &none  &bt BT_SEL 1    &bt BT_SEL 4  &none     &none  &none        &none
       &none  &none  &none       &none  &bt BT_SEL 2    &bt BT_SEL 5  &none     &none  &none        &none
                                 &none         &none           &none  &none
-            >;
-        };
-
-        gaming {
-            bindings = <
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
-&kp LSHIFT         &kp A         &kp W         &kp D         &kp R    &trans  &trans  &trans  &trans  &trans
-     &kp C        &trans         &kp S         &kp B         &kp F    &trans  &trans  &trans  &trans  &trans
-                                               &kp L     &kp SPACE    &trans  &trans
             >;
         };
     };
