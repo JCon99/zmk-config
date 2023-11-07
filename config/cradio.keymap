@@ -158,6 +158,11 @@
             bindings = <&kp NUMBER_0>;
             key-positions = <9 19>;
         };
+
+        cad {
+            bindings = <&to 5>;
+            key-positions = <31 30 23>;
+        };
     };
 
     behaviors {
