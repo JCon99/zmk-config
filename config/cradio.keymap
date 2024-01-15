@@ -102,64 +102,9 @@
             key-positions = <30 33>;
         };
 
-        one {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <0 10>;
-        };
-
         new_combo {
             bindings = <&kp ENTER>;
             key-positions = <32 33>;
-        };
-
-        two {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <1 11>;
-        };
-
-        three {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <2 12>;
-        };
-
-        four {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <3 13>;
-        };
-
-        five {
-            bindings = <&kp NUMBER_5>;
-            key-positions = <4 14>;
-        };
-
-        six {
-            bindings = <&kp NUMBER_6>;
-            key-positions = <5 15>;
-        };
-
-        seven {
-            bindings = <&kp NUMBER_7>;
-            key-positions = <6 16>;
-        };
-
-        eight {
-            bindings = <&kp NUMBER_8>;
-            key-positions = <7 17>;
-        };
-
-        nine {
-            bindings = <&kp NUMBER_9>;
-            key-positions = <8 18>;
-        };
-
-        zero {
-            bindings = <&kp NUMBER_0>;
-            key-positions = <9 19>;
-        };
-
-        cad {
-            bindings = <&to 0>;
-            key-positions = <31 30 23>;
         };
     };
 
@@ -192,10 +137,10 @@
 
         mod {
             bindings = <
-&kp ESC    &kp LEFT_GUI  &kp PRINTSCREEN   &kp CAPSLOCK  &kp LC(P)    &kp C_VOLUME_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans
-&sk LALT   &sk LEFT_GUI  &sk LEFT_CONTROL  &sk LSHIFT    &kp RALT     &kp C_VOL_DN       &kp LEFT        &kp UP_ARROW      &kp RIGHT   &kp DEL
-&kp LC(Z)  &kp LC(X)     &kp LC(C)         &kp TAB       &kp LC(V)    &kp C_MUTE         &trans          &kp DOWN_ARROW    &trans      &kp LC(Y)
-                                           &trans        &trans       &kp LC(BACKSPACE)  &trans
+&kp ESC    &sk LEFT_GUI  &sk LEFT_CONTROL  &kp CAPSLOCK  &kp LC(P)        &kp C_VOLUME_UP    &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans
+&sk LALT   &kp LEFT_GUI  &kp LEFT_CONTROL  &sk LSHIFT    &kp RIGHT_ALT    &kp C_VOL_DN       &kp LEFT        &kp UP_ARROW      &kp RIGHT   &kp DEL
+&kp LC(Z)  &kp LC(X)     &kp LC(C)         &kp TAB       &kp LC(V)        &kp C_MUTE         &trans          &kp DOWN_ARROW    &trans      &kp LC(Y)
+                                           &trans        &trans           &kp LC(BACKSPACE)  &trans
             >;
         };
 
