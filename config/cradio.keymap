@@ -76,7 +76,7 @@
 &kp Q  &kp W                &kp E                    &kp R                    &kp T        &kp Y          &kp U                    &kp I                    &kp O                 &kp P
 &kp A  &holdtap LEFT_ALT S  &holdtap LEFT_CONTROL D  &holdtap LEFT_COMMAND F  &kp G        &kp H          &holdtap LEFT_COMMAND J  &holdtap LEFT_CONTROL K  &holdtap RIGHT_ALT L  &kp SEMICOLON
 &kp Z  &kp X                &kp C                    &kp V                    &kp B        &kp N          &kp M                    &kp COMMA                &mt DOT EXCLAMATION   &kp SLASH
-                                                     &kp LEFT_SHIFT           &kp SPACE    &kp BACKSPACE  &to 2
+                                                     &mt CAPSLOCK LEFT_SHIFT  &kp SPACE    &kp BACKSPACE  &to 2
             >;
         };
 
