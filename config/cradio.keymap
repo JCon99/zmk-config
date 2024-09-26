@@ -84,10 +84,10 @@
 
         num {
             bindings = <
-&kp ESC          &sk C_PLAY_PAUSE  &sk C_PREV    &kp C_NEXT  &kp MINUS     &kp EQUAL     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp TAB          &kp LEFT          &kp UP_ARROW  &kp RIGHT   &kp PLUS      &kp PERIOD    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
-&kp LC(C_RESET)  &none             &kp DOWN      &kp LC(P)   &kp PERIOD    &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &to 3
-                                                 &to 0       &kp LCMD      &kp LEFT_ALT  &to 2
+&kp ESC       &sk C_PLAY_PAUSE  &sk C_PREV    &kp C_NEXT  &kp MINUS     &kp EQUAL     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
+&kp TAB       &kp LEFT          &kp UP_ARROW  &kp RIGHT   &kp PLUS      &kp PERIOD    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
+&kp LEFT_ALT  &none             &kp DOWN      &kp LC(P)   &kp PERIOD    &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &to 3
+                                              &to 0       &kp LCMD      &kp LEFT_ALT  &to 2
             >;
         };
 
