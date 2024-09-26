@@ -75,9 +75,9 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W           &kp E               &kp R                    &kp T        &kp Y          &kp U               &kp I               &kp O                &kp P
-&kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_COMMAND F       &kp G        &kp H          &mt LEFT_COMMAND J  &mt LEFT_CONTROL K  &mt RIGHT_ALT L      &kp SEMICOLON
-&kp Z  &kp X           &kp C               &kp V                    &kp B        &kp N          &kp M               &kp COMMA           &mt DOT EXCLAMATION  &kp SLASH
+&kp Q  &kp W           &kp E               &kp R                    &kp T        &kp Y          &kp U               &kp I               &kp O                   &kp P
+&kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_COMMAND F       &kp G        &kp H          &mt LEFT_COMMAND J  &mt LEFT_CONTROL K  &mt RIGHT_ALT L         &kp SEMICOLON
+&kp Z  &kp X           &kp C               &kp V                    &kp B        &kp N          &kp M               &kp COMMA           &mt EXCLAMATION PERIOD  &kp SLASH
                                            &mt LEFT_SHIFT CAPSLOCK  &kp SPACE    &kp BACKSPACE  &to 2
             >;
         };
