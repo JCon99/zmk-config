@@ -90,10 +90,10 @@
 
         num {
             bindings = <
-&kp ESC           &sk C_PLAY_PAUSE  &sk C_PREV    &kp C_NEXT  &kp MINUS     &kp EQUAL     &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-&kp TAB           &kp LEFT          &kp UP_ARROW  &kp RIGHT   &kp PLUS      &kp PERIOD    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
-&kp LEFT_CONTROL  &none             &kp DOWN      &kp LC(P)   &kp PERIOD    &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &to 3
-                                                  &to 0       &kp LCMD      &kp LEFT_ALT  &to 2
+&kp ESC           &sk C_PLAY_PAUSE  &sk C_PREV    &kp C_NEXT  &kp MINUS     &kp EQUAL      &kp N7        &kp N8        &kp N9        &kp DELETE
+&kp TAB           &kp LEFT          &kp UP_ARROW  &kp RIGHT   &kp PLUS      &kp PERIOD     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
+&kp LEFT_CONTROL  &none             &kp DOWN      &kp LC(P)   &kp PERIOD    &kp N0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &to 3
+                                                  &to 0       &kp LCMD      &kp BACKSPACE  &to 2
             >;
         };
 
@@ -102,7 +102,7 @@
 &kp ESCAPE  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT          &kp LCTRL         &kp AMPERSAND         &kp ASTERISK           &kp SEMICOLON      &kp DELETE
 &kp TAB     &kp EQUAL    &kp SQT   &kp MINUS   &kp SQT              &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp ENTER
 &kp TILDE   &kp GRAVE    &kp SQT   &kp UNDER   &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 3
-                                   &to 0       &kp LEFT_SHIFT       &kp LEFT_ALT      &to 1
+                                   &to 0       &kp LEFT_SHIFT       &kp BACKSPACE     &to 1
             >;
         };
 
