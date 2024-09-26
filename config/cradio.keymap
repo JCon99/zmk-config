@@ -26,6 +26,7 @@
     // tapping_term_ms = <200>;
 
     flavor = "balanced";
+    tapping-term-ms = <250>;
 };
 
 &sk { ignore-modifiers; };
